@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html lang="en">
+   <head>
+     <!--page title-->
+    <title>DogPhotoApp</title>
+  </head>
+    
+    <!--main title-->
+    <body>
+    <h1>DogPhotoApp</h1>
+    <main>
+      <section>
+        <!--Dog photos secondary title, description, photo and link-->
+        <h2>Dog Photos</h2>
+        <p> Welcome to the dog photo app, here you will find a lot of information and content about the man's best friend and you also can upload a photo of your own furry friend on our form.</p>
+        <p>Click here to view more <a target="_blank" href="https://unsplash.com/s/photos/dog">dog photos</a>.</p>
+        <a href="https://unsplash.com/s/photos/dog"><img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="A black dog with a grey sweater on a yellow background"></a>
+        
+      </section>
+      <section>
+        <h2>Dog Lists</h2>
+        <h3>Top 7 things dogs love:</h3>
+        <ul>
+          <li>Collecting trophies</li>
+          <li>Eating alone</li>
+          <li>Always being by your side</li>
+          <li>Watching TV</li>
+          <li>Making the bed</li>
+          <li>Swimming</li>
+          <li>Sleeping with you</li>
+        </ul>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1567954363518-dec8219a176d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZG9nJTIwc3dpbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="A dog swimming.">
+          <figcaption>Dogs <em>love</em> swimming.</figcaption>  
+        </figure>
+        <h3>Top 10 things dogs hate:</h3>
+        <ol>
+          <li>Being Left On Their Own</li>
+          <li>Scary Fireworks</li>
+          <li>Being Bored</li>
+          <li>When Owners Are Tense And Stressed</li>
+          <li>Going On A Walk And Not Being Able To Sniff Things</li>
+          <li>Being Ignored</li>
+          <li>Having Their Bone Taken Away</li>
+          <li>Having Their Nails Trimmed</li>
+          <li>The Vacuum Cleaner</li>
+          <li>Cellotape</li>
+        </ol>
+        <figure>
+          <img src="https://www.profoil.com/wp-content/uploads/2017/03/3m_scotch_tape_25mm_x_66m.jpg">
+          <figcaption>Dogs <strong>hate</strong> the cello tape.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Dog Form</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Is your dog an indoor dog or a outdoor dog?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your dog's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
